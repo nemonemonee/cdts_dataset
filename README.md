@@ -22,6 +22,7 @@ python generate_dataset.py
 
 
 ## 4. Reference
+```
 @inproceedings{see-etal-2017-get,
     title = "Get To The Point: Summarization with Pointer-Generator Networks",
     author = "See, Abigail  and
@@ -37,7 +38,22 @@ python generate_dataset.py
     pages = "1073--1083",
     abstract = "Neural sequence-to-sequence models have provided a viable new approach for abstractive text summarization (meaning they are not restricted to simply selecting and rearranging passages from the original text). However, these models have two shortcomings: they are liable to reproduce factual details inaccurately, and they tend to repeat themselves. In this work we propose a novel architecture that augments the standard sequence-to-sequence attentional model in two orthogonal ways. First, we use a hybrid pointer-generator network that can copy words from the source text via pointing, which aids accurate reproduction of information, while retaining the ability to produce novel words through the generator. Second, we use coverage to keep track of what has been summarized, which discourages repetition. We apply our model to the CNN / Daily Mail summarization task, outperforming the current abstractive state-of-the-art by at least 2 ROUGE points.",
 }
+```
 
+```
+@inproceedings{DBLP:conf/nips/HermannKGEKSB15,
+  author={Karl Moritz Hermann and Tomás Kociský and Edward Grefenstette and Lasse Espeholt and Will Kay and Mustafa Suleyman and Phil Blunsom},
+  title={Teaching Machines to Read and Comprehend},
+  year={2015},
+  cdate={1420070400000},
+  pages={1693-1701},
+  url={http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend},
+  booktitle={NIPS},
+  crossref={conf/nips/2015}
+}
+```
+
+```
 @inproceedings{gliwa-etal-2019-samsum,
     title = "{SAMS}um Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization",
     author = "Gliwa, Bogdan  and
@@ -53,7 +69,9 @@ python generate_dataset.py
     doi = "10.18653/v1/D19-5409",
     pages = "70--79"
 }
+```
 
+```
 @article{Cohan_2018,
    title={A Discourse-Aware Attention Model for Abstractive Summarization of
             Long Documents},
@@ -66,7 +84,9 @@ python generate_dataset.py
    author={Cohan, Arman and Dernoncourt, Franck and Kim, Doo Soon and Bui, Trung and Kim, Seokhwan and Chang, Walter and Goharian, Nazli},
    year={2018}
 }
+```
 
+```
 @misc{kornilova2019billsum,
     title={BillSum: A Corpus for Automatic Summarization of US Legislation},
     author={Anastassia Kornilova and Vlad Eidelman},
@@ -75,3 +95,4 @@ python generate_dataset.py
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
+```
