@@ -17,11 +17,11 @@ For simple tokenization, we currently employ space separation as our method. We 
 
 
 Analyzing the histograms presented above, we observe that the tokenized sequence lengths of both the text and summarization pairs exhibit a significant skew towards the right. It is important to note that the right limit on the x-axis does not represent the maximum sequence length. Rather, it is selected for the purpose of visualization.
-https://user-images.githubusercontent.com/
-#### 1.1.2 Histograms of the truncated tokenized sequence length
-<img width="400" alt="image" src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/1a09280b-1e52-4a06-b03f-6b28ddbb6ef2.png">
 
-<img width="400" alt="image" src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/78bc76df-9678-40b9-bd4e-86b862e63997.png">
+#### 1.1.2 Histograms of the truncated tokenized sequence length
+<img width="400" alt="image" src="https://imgur.com/PVvnmfS">
+
+<img width="400" alt="image" src="https://imgur.com/g4sqmBr">
 
 In practical applications, encoder-decoder transformer-based models often require a fixed input length. Therefore, for the second pair of histograms, we opt to truncate  tokenized text and summary sequences at a maximum length of 2048 and 256, respectively. 
 
