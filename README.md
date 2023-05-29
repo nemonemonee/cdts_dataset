@@ -12,16 +12,16 @@ By examining the distribution of tokenized text and summary lengths within our c
 For simple tokenization, we currently employ space separation as our method. We proceed to visualize the tokenized data accordingly. However, for future analysis, it is recommended to utilize a more advanced tokenizer from the transformer package, which can enhance the tokenization process.
 
 #### 1.1.1 Histograms of the tokenized sequence length
-<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a)" width="400" />
+<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a" width="400" >
 
-<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/00285bac-ca67-4666-9198-cecdd6c3b326)" width="400" />
+<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/00285bac-ca67-4666-9198-cecdd6c3b326" width="400" >
 
 Analyzing the histograms presented above, we observe that the tokenized sequence lengths of both the text and summarization pairs exhibit a significant skew towards the right. It is important to note that the right limit on the x-axis does not represent the maximum sequence length. Rather, it is selected for the purpose of visualization.
 
 #### 1.1.2 Histograms of the truncated tokenized sequence length
-<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/1a09280b-1e52-4a06-b03f-6b28ddbb6ef2)" width="400" />
+<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/1a09280b-1e52-4a06-b03f-6b28ddbb6ef2" width="400" >
 
-<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/78bc76df-9678-40b9-bd4e-86b862e63997)" width="400" />
+<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/78bc76df-9678-40b9-bd4e-86b862e63997" width="400" >
 
 In practical applications, encoder-decoder transformer-based models often require a fixed input length. Therefore, for the second pair of histograms, we opt to truncate  tokenized text and summary sequences at a maximum length of 2048 and 256, respectively. 
 
