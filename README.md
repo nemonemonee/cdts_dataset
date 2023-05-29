@@ -5,12 +5,12 @@
 Currently, the majority of advanced pre-trained language models excel in downstream Natural Language Processing (NLP) tasks when fine-tuned on specific datasets. However, these models exhibit proficiency only within their designated domains. Even performing on the same task such as text summarization, the performance are affected by slight variations in the domain. Consequently, we propose a novel cross-domain text summarization dataset that encompasses various domains, including news with headlines, dialogue with summaries, scientific papers with abstracts, and legislature bills with summaries. In Section 3, we will elaborate on the selection of datasets and the sampling strategies employed.
 
 ### 1.1 Graphs
-#### 1.1.1 Histagrams of the tokenized sequence length
+#### 1.1.1 Histograms of the tokenized sequence length
 <img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a)" width="400" />
 
 <img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/00285bac-ca67-4666-9198-cecdd6c3b326)" width="400" />
 
-### 1.1.2 Histagrams of the truncated tokenized sequence length
+### 1.1.2 Histograms of the truncated tokenized sequence length
 <img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/1a09280b-1e52-4a06-b03f-6b28ddbb6ef2)" width="400" />
 
 <img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/78bc76df-9678-40b9-bd4e-86b862e63997)" width="400" />
