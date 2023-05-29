@@ -12,16 +12,13 @@ By examining the distribution of tokenized text and summary lengths within our c
 For simple tokenization, we currently employ space separation as our method. We proceed to visualize the tokenized data accordingly. However, for future analysis, it is recommended to utilize a more advanced tokenizer from the transformer package, which can enhance the tokenization process.
 
 #### 1.1.1 Histograms of the tokenized sequence length
-<img width="400" src="https://user-images.githubusercontent.com/88709397/21c4dd2f-8e3d-43fe-93a7-b2c7c85d96c4.png"/>
-<img width="400" src="https://user-images.githubusercontent.com/88709397/5550eaec-8101-40dd-a373-5ced9b48d082.png"/>
+<img width="400" src="https://github.com/nemonemonee/cdts_dataset/blob/main/graphs/Figure_1.png"/> <img width="400" src="https://github.com/nemonemonee/cdts_dataset/blob/main/graphs/Figure_2.png"/>
 
 
 Analyzing the histograms presented above, we observe that the tokenized sequence lengths of both the text and summarization pairs exhibit a significant skew towards the right. It is important to note that the right limit on the x-axis does not represent the maximum sequence length. Rather, it is selected for the purpose of visualization.
 
 #### 1.1.2 Histograms of the truncated tokenized sequence length
-<img width="400" src="https://imgur.com/PVvnmfS"/>
-
-<img width="400" src="https://imgur.com/g4sqmBr"/>
+<img width="400" src="https://github.com/nemonemonee/cdts_dataset/blob/main/graphs/Figure_3.png"/> <img width="400" src="https://github.com/nemonemonee/cdts_dataset/blob/main/graphs/Figure_4.png"/>
 
 In practical applications, encoder-decoder transformer-based models often require a fixed input length. Therefore, for the second pair of histograms, we opt to truncate  tokenized text and summary sequences at a maximum length of 2048 and 256, respectively. 
 
