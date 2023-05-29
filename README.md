@@ -12,12 +12,12 @@ By examining the distribution of tokenized text and summary lengths within our c
 For simple tokenization, we currently employ space separation as our method. We proceed to visualize the tokenized data accordingly. However, for future analysis, it is recommended to utilize a more advanced tokenizer from the transformer package, which can enhance the tokenization process.
 
 #### 1.1.1 Histograms of the tokenized sequence length
-<img width="400" alt="image" src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/2f985974-de40-4a4e-bc8e-c3eed655b76c">
-<img width="400" alt="image" src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/0ffa899a-7612-48d6-89d9-2395ea11d48b">
+<img width="400" alt="image" src="https://imgur.com/xF7qXxV">
+<img width="400" alt="image" src="https://imgur.com/a/NHTRqUK">
 
 
 Analyzing the histograms presented above, we observe that the tokenized sequence lengths of both the text and summarization pairs exhibit a significant skew towards the right. It is important to note that the right limit on the x-axis does not represent the maximum sequence length. Rather, it is selected for the purpose of visualization.
-
+https://user-images.githubusercontent.com/
 #### 1.1.2 Histograms of the truncated tokenized sequence length
 <img width="400" alt="image" src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/1a09280b-1e52-4a06-b03f-6b28ddbb6ef2.png">
 
