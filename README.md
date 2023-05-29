@@ -13,7 +13,6 @@ For simple tokenization, we currently employ space separation as our method. We 
 
 #### 1.1.1 Histograms of the tokenized sequence length
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/88709397/241798562-8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a.png">
-
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/88709397/241798565-00285bac-ca67-4666-9198-cecdd6c3b326.png">
 
 Analyzing the histograms presented above, we observe that the tokenized sequence lengths of both the text and summarization pairs exhibit a significant skew towards the right. It is important to note that the right limit on the x-axis does not represent the maximum sequence length. Rather, it is selected for the purpose of visualization.
