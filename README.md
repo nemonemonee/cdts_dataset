@@ -31,17 +31,34 @@ In practical applications, encoder-decoder transformer-based models often requir
 ```
 python starter.py
 ```
+Please review the starter.py file. The saved files can be loaded using pickle, which allows for easy retrieval of the dataset.
+
 ### 2.2 How to reproduce this dataset?
 #### 2.2.1 Pre-requisite
 ```
 pip install datasets py7zr
 ```
-#### 2.2.2
+#### 2.2.2 Reproduction
 ```
 python generate_dataset.py
 ```
-## 3. Datasets
 
+You have the option to modify the random seed in the file, which will generate a dataset of the same size but with different data instances. Additionally, apart from the balanced dataset, the file has the capability to generate a full training set as well as unbalanced datasets with sizes of 40k and 100k instances respectively.
+
+## 3. Datasets and Sampling
+### 3.1 Datasets chosen
+-  news articles with headlines : CNN and DailyMail
+-  dialogues with summaries : Samsum
+-  scientific papers with abstracts : Arxiv and Pubmed
+-  legislature bills with summaries : BillSum
+
+### 3.2 Sampling method
+- balanced: we randomly sampled (10000, 800, 800) entries of the (train, validation, test) set from each of the dataset representing the 4 diverse domains.
+- unbalanced: for the train set, we want to also provide the unbalanced options, which include
+    - all: all the text and summary pairs from the chosen datasets
+    - 40k: randomly sample 40k entries from `all`
+    - 100k: randomly sample 100k entries from `all`
+The unbalanced datasets is not included in the repo because the size of those file is too large. We do provide the code to generate these unbalanced datasets in `generate_dataset.py`
 
 ## 4. Reference
 ```
