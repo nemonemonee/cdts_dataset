@@ -6,7 +6,7 @@ Currently, the majority of advanced pre-trained language models excel in downstr
 
 ### 1.1 Graphs
 #### 1.1.1 Histagrams of the tokenized sequence length
-![Figure_1](https://github.com/nemonemonee/cdts_dataset/assets/88709397/8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a)
+<img src="https://github.com/nemonemonee/cdts_dataset/assets/88709397/8d90e337-c3f6-4e9a-b1ef-d62b5c8a5c3a)" width="100" />
 ![Figure_2](https://github.com/nemonemonee/cdts_dataset/assets/88709397/00285bac-ca67-4666-9198-cecdd6c3b326)
 
 ### 1.1.2 Histagrams of the truncated tokenized sequence length
