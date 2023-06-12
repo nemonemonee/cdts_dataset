@@ -6,7 +6,7 @@ for i in range(10):
     train += pickle.load(f)
     f.close()
 
-f = open('valid/balanced.pkl', 'rb')
+f = open('validation/balanced.pkl', 'rb')
 valid = pickle.load(f)
 f.close()
 
